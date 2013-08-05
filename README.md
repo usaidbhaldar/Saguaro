@@ -18,13 +18,15 @@ Settings
 
 
 
-####Initial Admin Account:
+####Data Seeding:
 
 Admin account is seeded during first App_Start inside of: `InitConfig.InitializeData`
 
     WebSecurity.CreateUserAndAccount("admin", "adminPassword");
 
+UserProfile table is generated inside of `InitConfig.InitializeData` here:
 
+    Sql.SeedStatements.CreateUserProfileTableTask();
 
 
 ####Activity Logs:
