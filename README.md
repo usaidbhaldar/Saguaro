@@ -41,7 +41,6 @@ Environment Name & Storage account information is updated inside `Web.Config`. C
 All logging code is within the `Logging` folder and namespace.
 
 
-
 ####Send Grid & Email Messaging System:
 
 
