@@ -36,12 +36,14 @@ All SQL Statements are run from the `Saguaro.Sql` namespace
 ####Activity Logs:
 
 Activity logs can store all actions and log types by:
-*username
-*ip
-*time
-*activity.
+* username
+* ip
+* time
+* activity
 
-Create more LogTypes/ActivityTypes inside `Saguaro.Logging.Types`
+You can create more LogTypes/ActivityTypes inside `Saguaro.Logging.Types`
+
+default includes `platformlog` & `activitylog` types.
 
 Logs are also appended with the name of the current environment being used during the logging activity: (debug/production).
 
