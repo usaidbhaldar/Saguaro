@@ -47,9 +47,9 @@ default includes `platformlog` & `activitylog` types.
 
 Logs are also appended with the name of the current environment being used during the logging activity: (debug/production).
 
-Environment Name & Storage account information is updated inside `Web.Config`. Configuration is accessed using the `EnvironmentSettings` class.
+Environment Name & Storage account information is updated inside `Web.Config`. Configuration is accessed using the `Saguaro.EnvironmentSettings` class.
 
-All logging code is within the `Logging` folder and namespace.
+All logging code is within the `Saguaro.Logging` namespace.
 
 
 
@@ -59,10 +59,10 @@ All logging code is within the `Logging` folder and namespace.
 
 Sendgrid account information is updated inside `Web.Config`.
 
-Configuration is accessed using the `EnvironmentSettings` class.
+Configuration is accessed using the `Saguaro.EnvironmentSettings` class.
 
-All email messagng code is within the `Messaging` folder and namespace.
+All email messagng code is within the `Saguaro.Messaging` namespace.
 
-Email variables can be adjusted in the `ProjectSettings` class
+Email variables can be adjusted in the `Saguaro.ProjectSettings` class
 
 ===============================================================
