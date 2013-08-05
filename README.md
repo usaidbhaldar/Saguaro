@@ -53,6 +53,9 @@ Example Log Table Names:
 * **activitylogbyuserdebug** _(activity log by user debug)_
 * **activitylogbyuserproduction** _(activity log by user production)_
 * etc....
+* 
+
+_(logging report views are in the_`/Admin/Reports`_route)_
 
 ####Configuration
 
@@ -74,4 +77,13 @@ All email messagng code is within the `Saguaro.Messaging` namespace.
 
 Email variables can be adjusted in the `Saguaro.ProjectSettings` class
 
-===============================================================
+_(Users are sent a welcome message upon account creation from the_`/Users/Create`_controller)_
+
+
+
+####Other Details:
+
+_(Signout current user from the_`/SignOut`_route. You are free to implemnt your own signout within shared views)_
+
+_(Test logging user activity with the_`/Home/LogDownload`_route. This will log a 'download' activity by the logged in user)_
+
