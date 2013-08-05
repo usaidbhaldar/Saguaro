@@ -5,7 +5,11 @@ An ASP.NET MVC4 starter project for Azure Websites & SQLAzure.
 
 ######Features include:
 
-Admin area, user management (with SimpleMembership), Environment Management, Activity &amp; Error Logging (per Environment using Azure Table Storage), C# Async/Parallels &amp; SendGrid integration.
+* Admin area with user management (using SimpleMembership)
+* Environment Management
+* Activity &amp; Error Logging (per Environment using Azure Table Storage)
+* C# Async/Parallel
+* SendGrid integration.
 
 
 
@@ -14,9 +18,9 @@ Settings
 
 ####Initial Admin Account:
 
-Admin account is created during App_Start inside of: `InitConfig.InitializeData`
+Admin account is seeded during first App_Start inside of: `InitConfig.InitializeData`
 
-WebSecurity.CreateUserAndAccount("admin", "adminPassword");
+    WebSecurity.CreateUserAndAccount("admin", "adminPassword");
 
 
 
