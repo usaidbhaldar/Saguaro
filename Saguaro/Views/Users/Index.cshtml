@@ -1,0 +1,28 @@
+﻿@model IEnumerable<Saguaro.Models.UserProfile>
+@{
+    ViewBag.Title = "Users";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Users</h2>
+
+<div>
+   <a class="btn btn-primary" href="users/create">Add User</a>
+</div>
+
+
+<div>
+    <hr />
+
+    @foreach(var user in Model)
+    {
+        
+        <div>
+            <h4>@user.UserName</h4>
+            <a href="mailto:@user.Email">@user.Email</a>
+            <div>@user.Company</div>
+            <hr />
+        </div>
+        
+    }
+</div>

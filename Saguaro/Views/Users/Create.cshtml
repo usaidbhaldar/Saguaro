@@ -1,0 +1,45 @@
+﻿@model Saguaro.Models.UserProfile
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Create User</h2>
+
+@using (Html.BeginForm())
+{
+    @Html.ValidationSummary(true)
+    @Html.AntiForgeryToken()
+    
+    
+    <div class="editor-label">
+        @Html.LabelFor(model => model.UserName)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.UserName)
+        @Html.ValidationMessageFor(model => model.UserName)
+    </div>
+    
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Email)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.Email)
+        @Html.ValidationMessageFor(model => model.Email)
+    </div>
+    
+    <div class="editor-label">
+        @Html.LabelFor(model => model.Company)
+    </div>
+    <div class="editor-field">
+        @Html.EditorFor(model => model.Company)
+        @Html.ValidationMessageFor(model => model.Company)
+    </div>
+    
+    <hr />
+    
+    <p>
+        <input type="submit" class="btn btn-primary" value="Create User & Send Email" />
+    </p>
+    
+}

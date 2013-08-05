@@ -1,0 +1,29 @@
+﻿@model System.Collections.Generic.IEnumerable<Saguaro.Logging.TableEntities.LogByTimeTableEntity>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Full Logs (No Page Templates)</title>
+</head>
+<body>
+    <div>
+        @foreach(var log in Model)
+        {
+            <h3>@log.UserName</h3>
+            <div>@log.Email</div>
+            <div>@TimeZoneInfo.ConvertTimeFromUtc(log.Timestamp, TimeZoneInfo.FindSystemTimeZoneById("Pacific Standard Time"))</div>
+            <div>@log.ActivityType</div>
+            <div>@log.Description</div>
+            <div>@log.Company</div>
+            <div>@log.IPAddress</div>
+            <hr />
+        }
+    </div>
+</body>
+</html>

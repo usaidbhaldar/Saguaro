@@ -1,0 +1,40 @@
+﻿@{
+    ViewBag.Title = "Reports";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2>Activity Reports</h2>
+
+<p>
+   <a class="btn btn-primary" href="reports/all">All 'Activity' Logs By Time</a>
+</p>
+
+<p>
+   <a class="btn btn-primary" href="reports/activity/download">All 'Download' Actions By Time</a>
+</p>
+
+
+<p>
+   <a class="btn btn-primary" href="reports/activity/login">All 'Login' Actions By Time</a>
+</p>
+
+
+<p>
+   <a class="btn btn-primary" href="reports/users/<username>">All 'Activity' Logs By A User</a>
+</p>
+
+
+
+<p>
+   <a class="btn btn-primary" href="reports/ip/<address>">All 'Activity' Logs By an IP Address</a>
+</p>
+
+
+<hr />
+
+<h2>Platform Reports</h2>
+
+<p>
+   <a class="btn btn-primary" href="reports/platform/">All 'Platform' Logs By Time</a>
+</p>
+
