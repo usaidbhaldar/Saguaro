@@ -16,11 +16,14 @@ An ASP.NET MVC4 starter project for Azure Websites & SQLAzure.
 Settings
 ========
 
+
+
 ####Initial Admin Account:
 
 Admin account is seeded during first App_Start inside of: `InitConfig.InitializeData`
 
     WebSecurity.CreateUserAndAccount("admin", "adminPassword");
+
 
 
 
@@ -39,6 +42,8 @@ Logs are also appended with the name of the current environment being used durin
 Environment Name & Storage account information is updated inside `Web.Config`. Configuration is accessed using the `EnvironmentSettings` class.
 
 All logging code is within the `Logging` folder and namespace.
+
+
 
 
 ####Send Grid & Email Messaging System:
