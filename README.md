@@ -43,7 +43,7 @@ Activity logs can store all actions and log types by:
 
 You can create more LogTypes/ActivityTypes inside `Saguaro.Logging.Types`
 
-default includes `platformlog` & `activitylog` types.
+Default types include `platformlog` & `activitylog`.
 
 Logs are also appended with the name of the current environment being used during the logging activity: (debug/production).
 
