@@ -3,7 +3,7 @@ Saguaro
 
 An ASP.NET MVC4 starter project for Azure Websites & SQLAzure.
 
-Features include:
+######Features include:
 
 Admin area, user management (with SimpleMembership), Environment Management, Activity &amp; Error Logging (per Environment using Azure Table Storage), C# Async/Parallels &amp; SendGrid integration.
 
@@ -12,7 +12,7 @@ Admin area, user management (with SimpleMembership), Environment Management, Act
 Settings
 ========
 
-##Initial Admin Account:
+####Initial Admin Account:
 
 Admin account is created during App_Start inside of: `InitConfig.InitializeData`
 
@@ -20,7 +20,7 @@ WebSecurity.CreateUserAndAccount("admin", "adminPassword");
 
 
 
-##Activity Logs:
+####Activity Logs:
 
 Activity logs store all actions and log types by: username, ip, time & activity.
 
@@ -32,7 +32,7 @@ All logging code is within the `Logging` folder and namespace.
 
 
 
-##Send Grid & Email Messaging System:
+####Send Grid & Email Messaging System:
 
 
 Sendgrid account information is updated inside `Web.Config`.
