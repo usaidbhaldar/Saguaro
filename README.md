@@ -47,6 +47,9 @@ default includes `platformlog` & `activitylog` types.
 
 Logs are also appended with the name of the current environment being used during the logging activity: (debug/production).
 
+
+####Configuration
+
 Environment Name & Storage account information is updated inside `Web.Config`. Configuration is accessed using the `Saguaro.EnvironmentSettings` class.
 
 All logging code is within the `Saguaro.Logging` namespace.
