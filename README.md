@@ -55,7 +55,7 @@ Example Log Table Names:
 * etc....
 * 
 
-_(logging report views are in the_`/Admin/Reports`_route)_
+Log reports can be accessed in the_`/Admin/Reports` route.
 
 ####Configuration
 
@@ -77,13 +77,13 @@ All email messagng code is within the `Saguaro.Messaging` namespace.
 
 Email variables can be adjusted in the `Saguaro.ProjectSettings` class
 
-_(Users are sent a welcome message upon account creation from the_`/Users/Create`_controller)_
+Users are sent a welcome message upon account creation from the `/Users/Create` controller.
 
 
 
 ####Other Details:
 
-_(Signout current user from the_`/SignOut`_route. You are free to implemnt your own signout within shared views)_
+Signout current user from the `/SignOut` route. You are free to implemnt your own signout within shared views.
 
-_(Test logging user activity with the_`/Home/LogDownload`_route. This will log a 'download' activity by the logged in user)_
+Test logging user activity with the `/Home/LogDownload` route. This will log a 'download' activity by the logged in user.
 
