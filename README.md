@@ -26,7 +26,13 @@ Admin account is seeded during first App_Start inside of: `InitConfig.Initialize
 
 ####Activity Logs:
 
-Activity logs store all actions and log types by: username, ip, time & activity.
+Activity logs can store all actions and log types by:
+*username
+*ip
+*time
+*activity.
+
+Create more LogTypes/ActivityTypes inside `Saguaro.Logging.Types`
 
 Logs are also appended with the name of the current environment being used during the logging activity: (debug/production).
 
