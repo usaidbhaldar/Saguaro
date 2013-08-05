@@ -1,7 +1,11 @@
 Saguaro
 =======
 
-An ASP.NET MVC4 starter project for Azure Websites & SQLAzure. Features include: an admin area, user management (with SimpleMembership), activity &amp; error logging (using Azure Table Storage), C# Async/Parallels &amp; SendGrid integration.
+An ASP.NET MVC4 starter project for Azure Websites & SQLAzure.
+
+Features include:
+
+Admin area, user management (with SimpleMembership), Environment Management, Activity &amp; Error Logging (per Environment using Azure Table Storage), C# Async/Parallels &amp; SendGrid integration.
 
 
 
