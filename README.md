@@ -6,9 +6,9 @@ An ASP.NET MVC4 starter project for Azure Websites & SQLAzure.
 ######Features include:
 
 * Admin area with user management (using SimpleMembership)
-* Environment Management
 * Activity &amp; Error Logging (per Environment using Azure Table Storage)
-* C# Async/Parallel
+* C# Async & Parallel Library
+* Simple Environment Management
 * SendGrid integration.
 
 
@@ -43,10 +43,11 @@ Activity logs can store all actions and log types by:
 
 You can create more LogTypes/ActivityTypes inside `Saguaro.Logging.Types`
 
-Default types include `platformlog` & `activitylog`.
+Default types include _platform_ & _activity_.
 
 Logs are also appended with the name of the current environment being used during the logging activity: (debug/production).
 
+Example Log Table Names: _platformlogbyipdebug_, _platformlogbyipproduction_, _activitylogbyuserdebug_, _activitylogbyuserproduction_ etc....
 
 ####Configuration
 
