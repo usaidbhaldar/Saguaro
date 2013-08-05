@@ -29,6 +29,10 @@ UserProfile table is generated inside of `InitConfig.InitializeData` here:
     Sql.SeedStatements.CreateUserProfileTableTask();
 
 
+####SQL:
+
+All SQL Statements are run from the `Saguaro.Sql` namespace
+
 ####Activity Logs:
 
 Activity logs can store all actions and log types by:
