@@ -10,7 +10,7 @@ Settings
 
 ##Initial Admin Account:
 
-Admin account is created during App_Start inside of: -- `InitConfig.InitializeData`
+Admin account is created during App_Start inside of: `InitConfig.InitializeData`
 
 WebSecurity.CreateUserAndAccount("admin", "adminPassword");
 
@@ -22,19 +22,21 @@ Activity logs store all actions and log types by: username, ip, time & activity.
 
 Logs are also appended with the name of the current environment being used during the logging activity: (debug/production).
 
-Environment Name & Storage account information is updated inside Web.Config. Configuration is accessed using the EnvironmentSettings class.
+Environment Name & Storage account information is updated inside `Web.Config`. Configuration is accessed using the `EnvironmentSettings` class.
 
-All logging code is within the "Logging" folder and namespace.
+All logging code is within the `Logging` folder and namespace.
 
 
 
 ##Send Grid & Email Messaging System:
 
 
-Sendgrid account information is updated inside Web.Config. Configuration is accessed using the EnvironmentSettings class.
+Sendgrid account information is updated inside `Web.Config`.
 
-All email messagng code is within the "Messaging" folder and namespace.
+Configuration is accessed using the `EnvironmentSettings` class.
 
-Email variables can be adjusted in the ProjectSettings class
+All email messagng code is within the `Messaging` folder and namespace.
+
+Email variables can be adjusted in the `ProjectSettings` class
 
 ===============================================================
