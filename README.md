@@ -47,7 +47,12 @@ Default types include _platform_ & _activity_.
 
 Logs are also appended with the name of the current environment being used during the logging activity: (debug/production).
 
-Example Log Table Names: _platformlogbyipdebug_, _platformlogbyipproduction_, _activitylogbyuserdebug_, _activitylogbyuserproduction_ etc....
+Example Log Table Names:
+* _platformlogbyipdebug_
+* _platformlogbyipproduction_
+* _activitylogbyuserdebug_
+* _activitylogbyuserproduction_
+* etc....
 
 ####Configuration
 
