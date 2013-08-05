@@ -50,8 +50,8 @@ Logs are also appended with the name of the current environment being used durin
 Example Log Table Names:
 * **platformlogbyipdebug** _(platform log by ip debug)_
 * **platformlogbyipproduction** _(platform log by ip production)_
-* **platformlogbyuserdebug** _(activity log by user debug)_
-* **platformlogbyuserproduction** _(activity log by user production)_
+* **activitylogbyuserdebug** _(activity log by user debug)_
+* **activitylogbyuserproduction** _(activity log by user production)_
 * etc....
 
 ####Configuration
