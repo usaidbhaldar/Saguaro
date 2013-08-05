@@ -12,7 +12,7 @@ namespace Saguaro.Models
     public class UsersContext : DbContext
     {
         public UsersContext()
-            : base(EnvironmentSettings.SqlConnectionVariables.DatabaseName)
+            : base(EnvironmentSettings.SqlConnectionString)
         {
         }
 
