@@ -1,9 +1,9 @@
-<?xml version="1.0"?>
+<?xml version="1.0"?> //XML 1.0 version Start
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
   <metadata>
-    <id>EntityFramework</id>
+    <id>EntityFramework</id> //Id Starts and Ends
     <version>5.0.0</version>
-    <title>EntityFramework</title>
+    <title>EntityFramework</title> //Title of FrameWork
     <authors>Microsoft</authors>
     <owners>Microsoft</owners>
     <licenseUrl>http://go.microsoft.com/fwlink/?LinkId=253898&amp;clcid=0x409</licenseUrl>
@@ -13,10 +13,10 @@
     <summary>Entity Framework is Microsoft's recommended data access technology for new applications.</summary>
     <releaseNotes />
     <copyright />
-    <language />
-    <frameworkAssemblies>
+    <language /> //Language Tag Ends
+    <frameworkAssemblies> //FrameWork Assemble
       <frameworkAssembly assemblyName="System.Data.Entity" targetFramework="" />
       <frameworkAssembly assemblyName="System.ComponentModel.DataAnnotations" targetFramework="" />
-    </frameworkAssemblies>
+    </frameworkAssemblies> //FrameWork Assemble Ends
   </metadata>
 </package>
